@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-24T11:18:54.704Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="IUk8uKMqW4A55II0RRYn" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-24T11:22:45.373Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="r0dqlRExjM8h7oQTWgc7" type="github">
   <diagram id="KMa3qKYrj25J3nzpvQLY" name="Page-1">
     <mxGraphModel dx="530" dy="328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,8 +13,8 @@
         <mxCell id="N93MeVnp6EDyMdLJbOfk-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="N93MeVnp6EDyMdLJbOfk-2" target="N93MeVnp6EDyMdLJbOfk-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="N93MeVnp6EDyMdLJbOfk-2" value="var avg, n, sum, i = 0;&lt;br&gt;x = [];" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="91" width="120" height="60" as="geometry" />
+        <mxCell id="N93MeVnp6EDyMdLJbOfk-2" value="var avg, n, sum, b, i = 0;&lt;br&gt;x = [];" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="91" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N93MeVnp6EDyMdLJbOfk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="N93MeVnp6EDyMdLJbOfk-4" target="N93MeVnp6EDyMdLJbOfk-6">
           <mxGeometry relative="1" as="geometry" />
@@ -115,7 +115,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N93MeVnp6EDyMdLJbOfk-34" value="sum += pow(x[i] - avg)&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="363" y="970" width="125" height="60" as="geometry" />
+          <mxGeometry x="356" y="970" width="138" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N93MeVnp6EDyMdLJbOfk-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="N93MeVnp6EDyMdLJbOfk-39">
           <mxGeometry relative="1" as="geometry">
@@ -128,8 +128,26 @@
         <mxCell id="N93MeVnp6EDyMdLJbOfk-39" value="i++" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N93MeVnp6EDyMdLJbOfk-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="N93MeVnp6EDyMdLJbOfk-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="N93MeVnp6EDyMdLJbOfk-44" target="N93MeVnp6EDyMdLJbOfk-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N93MeVnp6EDyMdLJbOfk-44" value="b = sum / n" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="365" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N93MeVnp6EDyMdLJbOfk-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="N93MeVnp6EDyMdLJbOfk-48" target="N93MeVnp6EDyMdLJbOfk-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N93MeVnp6EDyMdLJbOfk-48" value="std = sqrt( b )" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N93MeVnp6EDyMdLJbOfk-50" value="End" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="383" y="1370" width="84.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N93MeVnp6EDyMdLJbOfk-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="N93MeVnp6EDyMdLJbOfk-51" target="N93MeVnp6EDyMdLJbOfk-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N93MeVnp6EDyMdLJbOfk-51" value="print(std);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
